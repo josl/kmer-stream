@@ -16,38 +16,45 @@
 #### Backend
 
 ```sh
+$ cd backend
 $ npm install
 ```
 
 #### Frontend
 
 ```sh
+$ cd frontend
 $ npm install && bower install
 ```
 
 #### Library
 
 ```sh
+$ cd library
 $ npm install && bash compile.sh
 ```
 
 ## Usage
 
+Follow the steps in the following order. For backend and front you will need separate terminals.
+
+#### Library
+```sh
+$ babel-node lib/cli.js
+```
+
 #### Backend
 
 ```sh
+$ cd backend
 $ npm start
 ```
 
 #### Frontend
 
 ```sh
+$ cd frontend
 $ grunt serve
-```
-
-#### Library
-```sh
-$ babel-node lib/cli.js
 ```
 
 #### Docker
