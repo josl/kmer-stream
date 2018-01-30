@@ -1,4 +1,9 @@
-# kmerjs > Finds kmers in a fastq file and sends them to a server
+# kmerjs 
+> Finds kmers in a fastq file and sends them to a server
+
+![][logo]
+
+[logo]: cover.png
 
 ## Dependencies
 
