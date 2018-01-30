@@ -1,0 +1,1 @@
+gulp babel && browserify dist/kmers.js  -o ../frontend/app/scripts/kmers.js -t [ babelify --presets [ es2015] ] -s Kmers && browserify dist/kmerStream.js  -o ../frontend/app/scripts/kmerStream.js -t [ babelify --presets [ es2015] ] -s Stream ;

@@ -1,0 +1,13 @@
+frontend:
+  image: httpd
+  ports:
+    - "9999:80"
+  links:
+    - backend
+  volumes:
+    - ./frontend/dist:/usr/local/apache2/htdocs/
+backend:
+    build: .
+    command: "npm start"
+    ports:
+        - "5000:3000"

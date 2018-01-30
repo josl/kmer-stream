@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "0.6.8",
+  "description": "KmerJS server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max_old_space_size=8192 server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "",
+    "body-parser": "",
+    "brfs": "",
+    "bson": "",
+    "chai-json-equal": "",
+    "cli": "",
+    "envify": "",
+    "express": "",
+    "filereader-stream": "",
+    "from2": "",
+    "helmet": "^2.1.1",
+    "kerberos": "",
+    "lodash": "",
+    "mongodb": "",
+    "mongodb-core": "",
+    "mongodb-es6": "",
+    "mongoose": "",
+    "progress-stream": "",
+    "object-sizeof": "^1.1.1",
+    "readline2": "",
+    "request": "",
+    "resolve": "",
+    "socket.io": "",
+    "redis": "",
+    "socket.io-client": "^1.4.6",
+    "time": "^0.11.4",
+    "node-inspector": "^0.12.3",
+    "performance-now": "^0.2.0"
+  }
+}
