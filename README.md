@@ -10,6 +10,8 @@
 - [Node.js](https://nodejs.org/en/)
 - [Babel](https://babeljs.io/docs/setup/#installation)
 - [Docker](https://docs.docker.com/install/)
+- [Grunt](https://gruntjs.com/using-the-cli)
+- [Bower](https://bower.io/#install-bower)
 
 ## Install
 
